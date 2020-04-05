@@ -11,6 +11,7 @@ int main(void) {
   PORTB &= ~(1<<PB4);
 
   initAdc();
+  // init serial connection to 115200 baud, 8bit, 1 stop bit.
   initSerial();
 
   char buf[100];
