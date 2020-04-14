@@ -2,5 +2,6 @@
 *.hex
 *.bin
 *.csv
+*.swp
 __py*
 *pyc
