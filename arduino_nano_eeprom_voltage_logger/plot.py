@@ -3,7 +3,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 
-x = np.loadtxt("./harvester0CycleSmoothed_3min.csv")
+x = np.loadtxt("./harvester0TransistorCycleSmoothed_3min.csv")
 t = np.arange(x.shape[0])*169./3600.
 
 plt.figure()
